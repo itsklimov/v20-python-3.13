@@ -8,7 +8,7 @@ Install using pip::
 
 to use pip::
 
-	git clone https://github.com/itsklimov/v20-python-3.13.git
+	pip install git+https://github.com/itsklimov/v20-python-3.13.git
 
 Documentation
 #############

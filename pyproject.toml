@@ -10,7 +10,11 @@ readme = "README.rst"
 authors = [{ name = "OANDA Corporation", email = "api@oanda.com" }]
 license = { text = "MIT" }
 requires-python = ">=3.10"
-dependencies = ["requests", "ujson", "PyYAML"]
+dependencies = [
+    "requests>=2.32.3,<3.0.0",
+    "ujson>=5.10.0,<6.0.0",
+    "PyYAML>=6.0.2,<7.0.0",
+]
 
 [project.urls]
 "Bug Tracker" = "https://github.com/oanda/v20-python/issues"
