@@ -1,3 +1,18 @@
 [build-system]
-requires = ["requests", "PyYAML", "ujson"]
+requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "v20"
+version = "3.0.25.0"
+description = "OANDA v20 bindings for Python"
+readme = "README.rst"
+authors = [{ name = "OANDA Corporation", email = "api@oanda.com" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["requests", "ujson", "PyYAML"]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/oanda/v20-python/issues"
+"Documentation" = "http://developer.oanda.com/rest-live-v20/introduction"
+"Source Code" = "https://github.com/oanda/v20-python"
