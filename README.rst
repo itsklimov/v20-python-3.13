@@ -1,8 +1,12 @@
 The OANDA v20 REST API provides programmatic access to OANDA's next generation
 v20 trading engine.
 
+
+
 Installation
 ############
+
+requires-python = ">=3.10"
 
 Install using pip::
 
