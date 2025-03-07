@@ -32,28 +32,31 @@ def main():
         "author_email": "api@oanda.com",
         "url": "https://github.com/oanda/v20-python",
         "license": "MIT",
-        "install_requires": ['requests', 'ujson'],
+        "install_requires": ["requests", "ujson"],
         "packages": ["v20"],
-        "data_files": [('', ['LICENSE.txt', 'ChangeLog'])],
+        "data_files": [("", ["LICENSE.txt", "ChangeLog"])],
         "platforms": ["any"],
         "zip_safe": True,
         "classifiers": [
-            'Development Status :: 5 - Production/Stable',
-            'Environment :: Console',
-            'Intended Audience :: Developers',
-            'License :: Other/Proprietary License',
-            'Natural Language :: English',
-            'Operating System :: OS Independent',
-            'Programming Language :: Python :: 2.7',
-            'Programming Language :: Python :: 3.5',
-            'Topic :: Software Development',
-            'Topic :: Software Development :: Libraries',
-            'Topic :: Utilities'
-        ]
+            "Development Status :: 5 - Production/Stable",
+            "Environment :: Console",
+            "Intended Audience :: Developers",
+            "License :: Other/Proprietary License",
+            "Natural Language :: English",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3.13",
+            "Programming Language :: Python :: 3.12",
+            "Programming Language :: Python :: 3.11",
+            "Programming Language :: Python :: 3.10",
+            "Topic :: Software Development",
+            "Topic :: Software Development :: Libraries",
+            "Topic :: Utilities",
+        ],
     }
 
     # Run the setup
     setup(**setup_options)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

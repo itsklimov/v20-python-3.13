@@ -6,11 +6,9 @@ Installation
 
 Install using pip::
 
-	pip install v20
+to use pip::
 
-If you don't wish to use pip::
-
-	git clone https://github.com/oanda/v20-python.git
+	git clone https://github.com/itsklimov/v20-python-3.13.git
 
 Documentation
 #############
